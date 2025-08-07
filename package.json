@@ -1,6 +1,5 @@
 {
   "name": "@latitude/tailwind-theme",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -40,5 +39,8 @@
   "files": [
     "index.css",                      
     "eslint.config.js"                   
-  ]
+  ],
+   "publishConfig": {
+    "access": "public"
+  }
 }
