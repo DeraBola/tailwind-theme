@@ -1,16 +1,17 @@
 {
   "name": "@themechadu/tailwind-theme",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "tailwind:init": "tailwindcss init"
+    "tailwind:init": "tailwindcss init"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "clsx": "^2.1.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
@@ -36,11 +37,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "style": "index.css",
   "files": [
-   "src/index.css",                      
-    "eslint.config.js"                   
+    "index.css",
+    "eslint.config.js"
   ],
-   "publishConfig": {
+  "publishConfig": {
     "access": "public"
   }
 }
