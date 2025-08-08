@@ -1,6 +1,6 @@
 {
   "name": "@themechadu/tailwind-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -39,7 +39,8 @@
   "license": "ISC",
   "style": "index.css",
   "files": [
-    "index.css",
+     "dist",
+     "index.css",
     "eslint.config.js"
   ],
   "publishConfig": {
